@@ -1,0 +1,93 @@
+body {
+    background: url("http://gifimage.net/wp-content/uploads/2017/07/flashing-lights-gif-13.gif");
+
+}
+
+
+.titleBox {
+    opacity: .90;
+    margin-left: 40%;
+    height: 300px;
+    width: 33%;
+    padding: -5px;
+}
+
+.clickMeh {
+    font-family: 'Special Elite', cursive;
+    color: white;
+    z-index: 1;
+    font-size: 20px;
+   position: relative;
+   top: -20%;
+   left: 20%;
+   animation: ease-in;
+}
+
+#titlePic {
+    z-index: 0;
+    position: relative;
+    top: 20%;
+}
+
+.gif-button {
+    background-color:  red;
+    width: 100px;
+    height: 35px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    font-family: 'Special Elite', cursive;
+
+}
+
+.gif-button:hover {
+    background-color: yellow;
+}
+
+form {
+    color: white;
+    width: 10%;
+    position: relative;
+    left: 90%;
+    top: 10%;
+    font-family: 'Special Elite', cursive;
+}
+
+.giferator {
+    padding-top: 3%;
+    padding-bottom: 50%;
+}
+.dynamos {
+    z-index: 0;
+    display: flex;
+    float: left;
+    padding-right: 8px;
+    padding-bottom: 10px;
+}
+
+
+.ratings {
+    z-index: 1;   
+    color: white;
+    display: flex;
+    float: left;
+    font-family: 'Special Elite', cursive;
+   
+}
+
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    height: 10px;
+
+ }
