@@ -56,7 +56,7 @@ function music(){
             for (var i = 0; i < gifGet.length; i++) {
   
 // Creating and storing a div tag
-              var giferation = $("<div>");
+              var giferation = $("<div class='gif-card'>");
   
  // Creating a paragraph tag with the result item's rating
               var rating = $("<p class= ratings>").text("Rating: " + gifGet[i].rating);

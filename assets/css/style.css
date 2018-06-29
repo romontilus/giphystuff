@@ -61,22 +61,23 @@ form {
     padding-top: 3%;
     padding-bottom: 50%;
 }
-.dynamos {
-    z-index: 0;
-    display: flex;
-    float: left;
-    padding-right: 8px;
+ .dynamos {
+  
+    padding-right: 15px;
     padding-bottom: 10px;
 }
 
 
-.ratings {
-    z-index: 1;   
+ .ratings {
+    
     color: white;
-    display: flex;
-    float: left;
+ 
     font-family: 'Special Elite', cursive;
    
+} 
+
+.gif-card{
+    display: inline-block;
 }
 
 footer {
